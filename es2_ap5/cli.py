@@ -8,6 +8,7 @@ from es2_ap5 import budget, storage
 
 _ADICIONAR_NARGS = 2
 
+
 def _cmd_adicionar(despesas, parts):
     if len(parts) != _ADICIONAR_NARGS:
         print('Uso: adicionar <descricao> <valor>')
