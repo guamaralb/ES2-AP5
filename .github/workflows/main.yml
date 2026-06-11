@@ -32,6 +32,9 @@ jobs:
       - name: Instalar Poetry
         run: pip install poetry
 
+      - name: Ativar venv
+        run: poetry env activate
+        
       - name: Instalar dependências
         run: poetry install
 
